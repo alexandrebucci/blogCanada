@@ -262,3 +262,55 @@ h2 {
   margin: 0 auto;
   display: block;
 }
+
+/* SINGLE ARTICLE */
+
+h1{
+  color: #C51535;
+  font-family: "Baron";
+  font-size: 2em;
+}
+
+.single-article{
+  padding: 50px 30px;
+}
+
+.single-article h1, p.date{
+  text-align: center;
+}
+
+.single-article p{
+  color: #421F1A;
+  line-height: 1.2;
+  margin: 10px 0;
+}
+
+.single-article p.date{
+  margin: 30px 0;
+}
+
+.single-article img{
+  width: 100%;
+  margin: 15px 0;
+}
+
+a.retour{
+  font-size: 1.125em;
+  margin-top: 10px;
+  text-decoration: none;
+  line-height: 3;
+  color: #8f1123;
+  -webkit-transition: all, 0.4s, ease-in-out;
+  -moz-transition: all, 0.4s, ease-in-out;
+  -o-transition: all, 0.4s, ease-in-out;
+  transition: all, 0.4s, ease-in-out;
+}
+
+a.retour:hover {
+  color: #c51c36;
+  -webkit-transition: all, 0.4s, ease-in-out;
+  -moz-transition: all, 0.4s, ease-in-out;
+  -o-transition: all, 0.4s, ease-in-out;
+  transition: all, 0.4s, ease-in-out;
+}
+
